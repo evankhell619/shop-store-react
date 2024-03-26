@@ -1,0 +1,12 @@
+import { Home } from './components/Home'
+import { createBrowserRouter } from 'react-router-dom'
+import App from './App'
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    Component: App
+  },
+  { path: '/', Components: Home }
+])
+export default router
