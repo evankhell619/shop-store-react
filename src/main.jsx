@@ -6,6 +6,7 @@ import ErrorPage from './pages/ErrorPage.jsx'
 import LoginPage from './pages/login.jsx'
 import RegisPage from './pages/regis.jsx'
 import ProductPage from './pages/products.jsx'
+import ProfilePage from './pages/profile.jsx'
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: '/products',
     element: <ProductPage />
+  },
+  {
+    path: '/profile',
+    element: <ProfilePage />
   }
 ])
 ReactDOM.createRoot(document.getElementById('root')).render(
